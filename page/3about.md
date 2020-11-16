@@ -15,7 +15,7 @@ type: page
 
 * Mail : qjxjfld13@gmail.com
 
-* Phone Number : 010 - 8924 - 1810
+* Phone Number : 010-8924-1810
 
 ---
 
