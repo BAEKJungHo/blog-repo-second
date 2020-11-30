@@ -9,7 +9,7 @@
 title: BAEKJH
 brief-intro: BE Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://baekjunho.github.io" # the base hostname & protocol for your site
+url: "https://baekjungho.github.io/" # the base hostname & protocol for your site
 
 
 permalink: /:title/
