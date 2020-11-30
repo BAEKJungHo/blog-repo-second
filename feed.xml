@@ -13,7 +13,7 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <image>
       <url>https://baekjungho.github.io/assets/img/logo.png</url>
-      <title>Gidhub</title>
+      <title>BAEKJH</title>
       <link>https://baekjungho.github.io/</link>
     </image>
     {% for post in site.posts limit:30 %}
