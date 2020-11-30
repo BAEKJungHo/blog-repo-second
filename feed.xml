@@ -12,7 +12,7 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <image>
-      <url>https://baekjungho.github.io/assets/img/logo.png</url>
+      <url>https://baekjungho.github.io/assets/images/b.png</url>
       <title>BAEKJH</title>
       <link>https://baekjungho.github.io/</link>
     </image>
