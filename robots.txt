@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://baekjungho.github.io/sitemap.xml
