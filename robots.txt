@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://baekjungho.github.io/sitemap.xml
+Sitemap: http://baekjungho.github.io/sitemap.xml
