@@ -102,7 +102,7 @@ Service Interface 에 추가하는 경우에, 구현체에서 해당 인터페�
 >
 > Spring은 인터페이스에 주석을 달지 않고 @Transactional 주석으로 구체적인 클래스 (및 구체적인 클래스의 메서드)에만 주석을 달도록 권장합니다. 인터페이스 (또는 인터페이스 메소드)에 @Transactional 어노테이션을 배치 할 수 있지만 이는 인터페이스 기반 프록시를 사용하는 경우 예상 한 대로만 작동합니다. Java 주석이 인터페이스에서 상속되지 않는다는 사실은 클래스 기반 프록시 (proxy-target-class = "true") 또는 위빙 기반 측면 (mode = "aspectj")을 사용하는 경우 트랜잭션 설정이 다음과 같음을 의미합니다. 프록시 및 위빙 인프라에 의해 인식되지 않으며 객체가 트랜잭션 프록시에 래핑되지 않으므로 확실히 나쁠 것입니다.
 >
-> 출처 : https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/transaction.html
+> 출처 : [docs.spring.io transactional](https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/transaction.html)
 
 ## @Transcational 을 Service 구현체에 추가하는 경우
 
