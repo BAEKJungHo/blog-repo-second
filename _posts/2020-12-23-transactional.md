@@ -1,8 +1,8 @@
 ---
-title: "@Transactional"
+title: "@Transactional 을 통한 트랜잭션 설정"
 layout: post
 category: Spring
-tags: [Spring, DataBase]
+tags: [Spring]
 excerpt: "스프링의 @Transactional 과 트랜잭션에 대한 정리"
 author: BAEKJungHo
 ---
