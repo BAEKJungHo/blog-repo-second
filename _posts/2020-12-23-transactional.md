@@ -186,6 +186,7 @@ AbstractPlatformTransactionManager.java 의 `setGlobalRollbackOnParticipationFai
 
 ## 참고
 
+- https://www.marcobehler.com/guides/spring-transaction-management-transactional-in-depth
 - https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/transaction.html
 - https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/Propagation.html
 - https://woowabros.github.io/experience/2019/01/29/exception-in-transaction.html
