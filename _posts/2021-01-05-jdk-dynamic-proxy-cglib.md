@@ -29,7 +29,7 @@ JDK Dynamic Proxy 와 CGLib 라이브러리에 대해 배워보겠습니다.
 - 비용이 많이 드는 연산(DB 쿼리, 대용량 텍스트 파일 등)을 실제로 필요한 시점에 수행할 수 있다.
 - 사용자 입장에서는 프록시 객체나 실제 객체나 사용법은 유사하므로 사용성이 좋다.
 
-![proxy](/images/posts/202101/proxy.jpg)
+![proxy](/images/posts/202101/proxy.JPG)
 
 ### Example
 
