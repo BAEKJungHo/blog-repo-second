@@ -1,8 +1,8 @@
 ---
 title: "[객체지향 3대 요소] 캡슐화(Encapsulation)"
 layout: post
-category: Spring
-tags: [Spring]
+category: OOP
+tags: [OOP]
 excerpt: "객체지향 3대 요소인 캡슐화에 대한 정리"
 author: BAEKJungHo
 ---
