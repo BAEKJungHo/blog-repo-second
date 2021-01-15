@@ -467,7 +467,7 @@ public class User {
 - 특징
     - 리턴타입, 메서드명, 파라미터 개수, 파라미터 타입이 전부 동일해야한다.
     - 상속, 구현 관계에서 사용할 수 있다.
-    - 인터페이스를 구현해서 오버라이딩 하거나, 추상클래스를 상속받아서 메서드를 오버라이딩할 수 있다.
+    - 인터페이스를 구현해서 오버라이딩 하거나, 추상 클래스를 상속받아서 메서드를 오버라이딩할 수 있다.
 
 ```java
 public class Vehicle {
@@ -475,7 +475,7 @@ public class Vehicle {
     public void drive() {
         System.out.println("drive");
     }
-    
+
 }
 ```
 
