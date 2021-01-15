@@ -12,7 +12,7 @@ author: BAEKJungHo
 
 # 서론
 
-객체지향 3대 요소인상속(Inheritance)에 대해서 배워 보겠습니다.
+객체지향 3대 요소인 상속(Inheritance)에 대해서 배워 보겠습니다.
 
 # 상속(Inheritance)
 

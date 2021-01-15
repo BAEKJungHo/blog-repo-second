@@ -48,3 +48,5 @@ author: BAEKJungHo
 - [객체지향의 사실과 오해](#)
 - [소트웍스 앤솔러지. 객체지향 생활체조 파트](#)
 - [오브젝트](#)
+- [HeadFirst Design Pattern](#)
+- [GoF Design Pattern](#)
