@@ -35,7 +35,7 @@ public class Car {
   /**
   * 기본 주행 로직
   */
-  protected void driving() {
+  protected void drive() {
     System.out.println("운전 시작");
   }
 }
@@ -51,7 +51,7 @@ public class Benz extends Car {
   * 벤츠만의 주행 로직
   */
   @Override
-  public void driving() {
+  public void drive() {
       if(autoDriving) {
           System.out.println("start auto driving");
       } else {
@@ -87,7 +87,7 @@ public abstract class Car {
     protected String tire;
     protected String body;
 
-    protected abstract void driving();
+    protected abstract void drive();
 
 }
 ```
@@ -102,7 +102,7 @@ public class Benz extends Car {
   * 벤츠만의 주행 로직
   */
   @Override
-  public void driving() {
+  public void drive() {
       if(autoDriving) {
           System.out.println("start auto driving");
       } else {
@@ -152,7 +152,7 @@ public abstract class Vehicle {
         this.name = name;
     }
 
-    protected abstract void driving();
+    protected abstract void drive();
 
 }
 ```
@@ -167,7 +167,7 @@ public class Airplane extends Vehicle {
     }
 
     @Override
-    protected void driving() {
+    protected void drive() {
         System.out.println("비행기 운행 로직 실행");
     }
 
@@ -180,7 +180,7 @@ public class Car extends Vehicle {
     }
 
     @Override
-    protected void driving() {
+    protected void drive() {
         System.out.println("자동차 주행 로직 실행");
     }
 
