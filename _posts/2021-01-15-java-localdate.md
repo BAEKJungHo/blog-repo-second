@@ -106,13 +106,14 @@ JSR-310 스팩의 구현체를 제공합니다.
     - 표준 시간대, 표준 시간대 오프셋 및 표준 시간대 규칙을 지원하는 클래스. 표준 시간대로 작업하는 경우 대부분의 개발자는 ZonedDateTime 및 ZoneId 또는 ZoneOffset 만 사용해야합니다 .
 
 ## 주요 API
-    - 기계용 시간(machine time)과 인류용 시간(human time)으로 나눌 수 있다.
-    - 기계용 시간은 EPOCK(1970년 1월 1일 0시 0분 0초)부터 현재까지의 타임스탬프를 표현한다.
-    - 인류용 시간은 우리가 흔히 사용하는 연,월,일,시,분,초 등을 표현한다.
-    - 타임스탬프는 `Instant` 를 사용한다.
-    - 특정 `날짜(LocalDate), 시간(LocalTime), 일시(LocalDateTime)`를 사용할 수 있다.
-    - 기간을 표현할 때는 `Duration(시간 기반)`과 `Period(날짜 기반)`를 사용할 수 있다.
-    - `DateTimeFormatter` 를 사용해서 일시를 특정한 문자열로 포매팅할 수 있다.
+
+- 기계용 시간(machine time)과 인류용 시간(human time)으로 나눌 수 있다.
+- 기계용 시간은 EPOCK(1970년 1월 1일 0시 0분 0초)부터 현재까지의 타임스탬프를 표현한다.
+- 인류용 시간은 우리가 흔히 사용하는 연,월,일,시,분,초 등을 표현한다.
+- 타임스탬프는 `Instant` 를 사용한다.
+- 특정 `날짜(LocalDate), 시간(LocalTime), 일시(LocalDateTime)`를 사용할 수 있다.
+- 기간을 표현할 때는 `Duration(시간 기반)`과 `Period(날짜 기반)`를 사용할 수 있다.
+- `DateTimeFormatter` 를 사용해서 일시를 특정한 문자열로 포매팅할 수 있다.
 
 Date-Time API는 ISO-8601에 정의 된 달력 시스템을 기본 달력으로 사용합니다. 이 달력은 그레고리력 시스템을 기반으로하며 날짜 및 시간을 나타내는 사실상의 표준으로 전역 적으로 사용됩니다. Date-Time API의 핵심 클래스에는 LocalDateTime , ZonedDateTime 및 OffsetDateTime 과 같은 이름이 있습니다 . 이들 모두는 ISO 달력 시스템을 사용합니다 
 
