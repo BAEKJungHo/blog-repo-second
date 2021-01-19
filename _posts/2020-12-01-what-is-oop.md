@@ -10,6 +10,8 @@ author: BAEKJungHo
 * content
 {:toc}
 
+![logo](/images/posts/logo/JAVA.jpg)
+
 # 객체지향 프로그래밍(OOP) 이란?
 
 객체 지향 프로그래밍(Object Oriented Programming)은 컴퓨터 프로그램을 명령어의 목록으로 보는 시각에서 벗어나 여러개의 독립된 단위, 즉 "객체"들의 `모임`으로 파악하고자 하는 것이다. 각각의 객체는 `메시지`를 주고받고, 데이터를 처리할 수 있다. (`협력`)

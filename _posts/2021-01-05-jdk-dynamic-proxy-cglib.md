@@ -10,6 +10,8 @@ author: BAEKJungHo
 * content
 {:toc}
 
+![logo](/images/posts/logo/SPRING.jpg)
+
 # 서론
 
 JDK Dynamic Proxy 와 CGLib 라이브러리에 대해 배워보겠습니다. 

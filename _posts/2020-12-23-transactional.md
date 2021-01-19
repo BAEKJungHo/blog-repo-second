@@ -10,6 +10,8 @@ author: BAEKJungHo
 * content
 {:toc}
 
+![logo](/images/posts/logo/SPRING.jpg)
+
 # 서론
 
 스프링에서 사용하는 @Transactional 어노테이션과, 트랜잭션이 무엇이고, 트랜잭션을 거는 Layer 는 어디가 적당한지 등에 대해서 다뤄보겠습니다.

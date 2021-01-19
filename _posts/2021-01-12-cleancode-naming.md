@@ -10,6 +10,8 @@ author: BAEKJungHo
 * content
 {:toc}
 
+![logo](/images/posts/logo/CLEANCODE.jpg)
+
 # 서론
 
 좋은 네이밍을 짓는것은 프로그래머의 책임입니다.

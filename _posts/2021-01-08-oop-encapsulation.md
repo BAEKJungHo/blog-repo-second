@@ -10,6 +10,8 @@ author: BAEKJungHo
 * content
 {:toc}
 
+![logo](/images/posts/logo/JAVA.jpg)
+
 # 서론
 
 객체지향 3대 요소인 캡슐화(Encapsulation)에 대해서 배워 보겠습니다.

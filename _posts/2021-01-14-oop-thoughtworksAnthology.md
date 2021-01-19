@@ -10,6 +10,8 @@ author: BAEKJungHo
 * content
 {:toc}
 
+![logo](/images/posts/logo/JAVA.jpg)
+
 # 서론
 
 소트웍스 앤솔러지(Thoughtworks Anthology) 책에 나와있는 객체지향 생활체조 9가지 규칙에 대해 정리한 글입니다.
