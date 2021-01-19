@@ -1,8 +1,8 @@
 ---
 title: "클린 코드를 위한 좋은 네이밍 방법"
 layout: post
-category: Clean Code
-tags: [Clean Code]
+category: CleanCode
+tags: [CleanCode]
 excerpt: "클린 코드를 위한 좋은 네이밍 방법에 대한 정리"
 author: BAEKJungHo
 ---
