@@ -3,7 +3,7 @@ title: "클린 코드를 위한 좋은 함수 작성 방법"
 layout: post
 category: CleanCode
 tags: [CleanCode]
-excerpt: "클린 코드를 위한 좋은 함수 작성 방법"에 대한 정리"
+excerpt: "클린 코드를 위한 좋은 네이밍 방법에 대한 정리"
 author: BAEKJungHo
 ---
 
