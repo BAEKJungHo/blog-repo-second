@@ -1,5 +1,5 @@
 ---
-title: "[Proxy 와 스프링 AOP] 1. JDK Dynamic Proxy 와 CGLib 라이브러리"
+title: "[Proxy 와 스프링 AOP] JDK Dynamic Proxy 와 CGLib 라이브러리"
 layout: post
 category: Spring
 tags: [Spring]
