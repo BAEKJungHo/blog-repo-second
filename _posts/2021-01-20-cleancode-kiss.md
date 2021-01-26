@@ -1,16 +1,16 @@
 ---
 title: "KISS(keep it short and simple) 원칙"
 layout: post
-category: CleanCode
-tags: [CleanCode]
-excerpt: "클린 코드를 위한 KISS(keep it short and simple) 원칙에 대한 정리"
+category: OOP
+tags: [OOP]
+excerpt: "KISS(keep it short and simple) 원칙에 대한 정리"
 author: BAEKJungHo
 ---
 
 * content
 {:toc}
 
-![logo](/images/posts/logo/CLEANCODE.jpg)
+![logo](/images/posts/logo/JAVA.jpg)
 
 # 서론
 
