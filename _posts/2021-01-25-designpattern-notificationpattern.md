@@ -10,7 +10,7 @@ author: BAEKJungHo
 * content
 {:toc}
 
-![logo](/images/posts/logo/JAVA.jpg)
+![logo](/images/posts/logo/DesignPattern.jpg)
 
 # 서론
 
