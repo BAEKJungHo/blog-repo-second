@@ -28,7 +28,7 @@ author: BAEKJungHo
 
 ## WebSecurityConfigurerAdapter
 
-`WebSecurityConfigurerAdapter` 는 __스프링 시큐리티의 웹 보안 기능 및 초기화 설정을 담당__하며 세가지 `configure` 메서드를 통해서 세부적인 설정을 할 수 있습니다.
+`WebSecurityConfigurerAdapter` 는 `스프링 시큐리티의 웹 보안 기능 및 초기화 설정을 담당` 하며 세가지 `configure` 메서드를 통해서 세부적인 설정을 할 수 있습니다.
 
 - configure(WebSecurity)
     - 스프링 시큐리티의 필터 연결을 설정하기 위한 오버라이딩이다.
