@@ -33,7 +33,7 @@ UsernamePasswordAuthenticationFilter 는 username 과 password 를 HttpServletRe
 
 먼저 인증 요청이 올때 어떻게 유저가 로그인 페이지로 리다이렉트 하는지 배워 보겠습니다.
 
-![formlogin](/images/posts/202102/formlogin.jpg)
+![formlogin](/images/posts/202102/formlogin.JPG)
 
 > 출처 : [Spring security Docs](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication-form)
 
@@ -47,7 +47,7 @@ UsernamePasswordAuthenticationFilter 는 username 과 password 를 HttpServletRe
 
 사용자가 입력한 username 과 password 가 제출되면 `UsernamePasswordAuthenticationFilter` 를 통해 인증을 시도합니다.
 
-![formlogin2](/images/posts/202102/formlogin2.jpg)
+![formlogin2](/images/posts/202102/formlogin2.JPG)
 
 > 출처 : [Spring security Docs](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication-form)
 
@@ -55,7 +55,7 @@ UsernamePasswordAuthenticationFilter 는 username 과 password 를 HttpServletRe
 
 `UsernamePasswordAuthenticationFilter` 의 더 자세한 인증 방식은 다음 그림과 같습니다.
 
-![usernamepassword](/images/posts/202102/usernamepassword.jpg)
+![usernamepassword](/images/posts/202102/usernamepassword.JPG)
 
 사용자의 로그인 요청이 오면 가장먼저 `UsernamePasswordAuthenticationFilter`를 거치게 됩니다. 그리고 `AntPathRequestMatcher` 를 통해서 요청 정보가 매핑되는지 확인하고, 매핑 되지 않을 경우 `chain.doFilter` 를 동작하게됩니다.
 요청 정보가 매핑 된다면 username 과 password 로 `Authentication`을 만들고 `AuthenticationManager` 를 사용하여 인증을 시도합니다. `AuthenticationManager(ProviderManager)` 는 여러 `AuthenticationProvider` 를 사용하여 인증을 시도하는데, 그 중에 `DaoAuthenticationProvider` 는 `UserDetailsService` 를 사용하여 `UserDetails` 정보를 가져와 사용자가 입력한 password 와 비교합니다. 
