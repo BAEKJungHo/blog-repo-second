@@ -22,6 +22,8 @@ author: BAEKJungHo
 
 ![filterchain](/images/posts/202102/filterchain.JPG)
 
+> 출처 : [Spring security Docs](https://docs.spring.io/spring-security/site/docs/current/reference/html5)
+
 클라이언트가 애플리케이션에 요청을 보내면 서블릿 컨테이너는 요청 URI 경로를 기준으로 `HttpServletRequest` 를 처리해야하는 `Filter` 와 `Servlet`을 포함하는 `FilterChain` 을 생성합니다.
 
 스프링 MVC 애플리케이션에서 서블릿은 `DispatcherServelt` 의 인스턴스를 의미합니다. 하나의 서블릿은 하나의 `HttpServeltRequest` 와 `HttpServletResponse`를 다룰 수 있습니다.
@@ -56,7 +58,7 @@ public void doFilter(ServletRequest request, ServletResponse response, FilterCha
 
 ![filterproxy](/images/posts/202102/filterproxy.JPG)
 
-`DelegatingFilterProxy` 는 `springSecurityFilterChain` 이라는 이름을 가진 빈을 `ApplicationContext`에서 찾아 그 빈에게 요청을 위임하며,스프링은 `FilterChainProxy` 를 빈으로 등록할 때 `springSecurityFilterChain` 이라는 이름으로 등록을 한다. 따라서 `DelegatingFilterProxy` 가 `FilterChainProxy` 에게 보안 처리를 위임하는 것입니다. 보안처리가 완료되면 최종적으로 `DispatcherServlet` 으로 가서 남은 다른 요청들을 처리하게 됩니다.
+`DelegatingFilterProxy` 는 `springSecurityFilterChain` 이라는 이름을 가진 빈을 `ApplicationContext`에서 찾아 그 빈에게 요청을 위임하며, 스프링은 `FilterChainProxy` 를 빈으로 등록할 때 `springSecurityFilterChain` 이라는 이름으로 등록을 합니다. 따라서 `DelegatingFilterProxy` 가 `FilterChainProxy` 에게 보안 처리를 위임하는 것입니다. 보안처리가 완료되면 최종적으로 `DispatcherServlet` 으로 가서 남은 다른 요청들을 처리하게 됩니다.
 
 `DelegatingFilterProxy` 는 표준 서블릿 컨테이너 메커니즘을 통해 등록할 수 있지만 모든 작업을 필터를 구현하는 스프링 빈에 위임할 수 있습니다.
 
