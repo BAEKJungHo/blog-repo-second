@@ -65,6 +65,15 @@ UsernamePasswordAuthenticationFilter 는 username 과 password 를 HttpServletRe
 
 인증에 성공하면 `user 정보`와` Authorities(권한) 정보`를 저장하여 다시 `AuthenticationManager` 에게 리턴합니다. `AuthenticationManager` 는 `AuthenticationProvider` 에게 받은 최종적인 인증 객체인 `Authentication `을 필터에게 전달합니다. 그리고 이 필터는 `Authentication` 을 `SecurityContext` 에 저장합니다. 그리고 마지막으로 `SuccessHandler` 를 통해 성공 후 작업을 처리하게 됩니다.
 
+## 그 외
+
+- [Basic Authentication](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication-basic)
+- [Digest Authentication](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication-digest)
+- [In-Memory Authentication](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication-inmemory)
+- [JDBC Authentication](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication-jdbc)
+
+위 Authentication 방식에 대해서는 Spring Docs 를 참고하시는게 좋습니다.
+
 ## 참고
 
 > [인프런. 스프링 부트 기반 스프링 시큐리티 프로젝트](#)
