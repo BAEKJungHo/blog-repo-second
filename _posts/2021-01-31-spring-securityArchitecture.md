@@ -54,7 +54,7 @@ public void doFilter(ServletRequest request, ServletResponse response, FilterCha
 
 아래 그림을 보겠습니다.
 
-![filterchain](/images/posts/202102/filterchain.JPG)
+![filterproxy](/images/posts/202102/filterproxy.JPG)
 
 `DelegatingFilterProxy` 는 `springSecurityFilterChain` 이라는 이름을 가진 빈을 `ApplicationContext`에서 찾아 그 빈에게 요청을 위임하며,스프링은 `FilterChainProxy` 를 빈으로 등록할 때 `springSecurityFilterChain` 이라는 이름으로 등록을 한다. 따라서 `DelegatingFilterProxy` 가 `FilterChainProxy` 에게 보안 처리를 위임하는 것입니다. 보안처리가 완료되면 최종적으로 `DispatcherServlet` 으로 가서 남은 다른 요청들을 처리하게 됩니다.
 
