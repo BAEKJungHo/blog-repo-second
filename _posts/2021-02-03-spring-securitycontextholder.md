@@ -74,8 +74,8 @@ UserDetails userDetails = (UserDetails) authentication.getPrincipal();
 
 기본 전략은 `ThreadLocal`이라고 배웠습니다. 그 외에도 다른 전략이 존재합니다.
 
-- MODE_THREADLOCAL : 스레드당 SecurityContext 를 할당(Default)
-- MODE_INHERITABLETHREADLOCAL : 메인 스레드와 자식 스레드에 대해야 동일한 SecurityContext 유지
+- MODE_THREADLOCAL : 스레드당 SecurityContext 를 할당한다. (Default Strategy)
+- MODE_INHERITABLETHREADLOCAL : 메인 스레드와 자식 스레드에 대해야 동일한 SecurityContext 를 유지한다.
 - MODE_GLOBAL : 응용 프로그램에서 단 하나의 SecurityContext 를 가진다.
 
 ### ThreadLocalSecurityContextHolderStrategy
