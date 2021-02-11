@@ -18,7 +18,7 @@ author: BAEKJungHo
 
 # Authentication
 
-Authentication 은 `단신이 누구인지를 증명하는 것`을 의미합니다. 
+Authentication 은 `당신이 누구인지를 증명하는 것`을 의미합니다. 
 
 - 사용자의 인증 정보를 저장하는 토큰 개념
 - 인증 시 id 와 password 가 인증을 위해서 사용된다.
