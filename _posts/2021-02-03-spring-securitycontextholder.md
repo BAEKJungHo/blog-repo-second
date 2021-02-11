@@ -68,7 +68,7 @@ UserDetails userDetails = (UserDetails) authentication.getPrincipal();
 
 - Authentication 이 저장되는 보관소
 - ThreadLocal 에 저장되어 어디든 꺼내서 쓸 수 있음
-- 인증이 완료되면 HttpSession 에 저장되어 전역적인 참조가 가능하다.
+- 인증이 완료되면 HttpSessionSecurityContextRepository 를 통해서 HttpSession 기반으로 SecurityContext 를 저장해 둔다. 따라서 전역적인 참조가 가능하다.
 
 ### SecurityContext 의 객체 저장방식
 
