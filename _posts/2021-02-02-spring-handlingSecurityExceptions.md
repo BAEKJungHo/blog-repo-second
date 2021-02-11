@@ -45,10 +45,20 @@ try {
 }
 ```
 
+## 정리
+
+- Spring Security 에서 인증과, 인가 과정에서 예외가 발생할 경우 ExceptionTranslationFilter 가 이를 담당합니다.
+- AuthenticationException 예외가 발생한 경우라면, 다시금 인증을 하도록 이를 유도하게 되고
+- AccessDeniedException 예외가 발생했다면 익명 사용자인지 확인, 익명사용자라면 인증을 유도하며, 익명사용자가 아니라면 accessDeninedHandler 에게 이를 위임한다.
+- 모든 Security 필터에서 발생하는 AuthenticationException, AccessDeniedException 처리를 담당하는 것은 아니다.
+- UsernamePasswordAuthenticationFilter 에서 발생한 예외의 경우에는 부모클래스인 AbstractAuthenticationProcessingFilter 에서 이를 처리한다.
+
 ## 참고
 
 > [인프런. 스프링 부트 기반 스프링 시큐리티 프로젝트](#)
 >
 > [인프런. 스프링 시큐리티](#)
+>
+> [ncucu Spring Security](https://pupupee9.tistory.com/112)
 >
 > [Spring Security Docs](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication-form)
