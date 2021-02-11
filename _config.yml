@@ -26,8 +26,8 @@ description_footer: ""
 # two ways to comment, only choose one, and use your own short name
 disqus_shortname: BAEKJH
 
-# Statistic Analysis
-# google_analytics_id: UA-124748625-1 # google analytics id
+# Statistic Analysis 
+google_analytics_id: UA-189505063-1 # google analytics id
 
 # Build settings
 markdown: kramdown
