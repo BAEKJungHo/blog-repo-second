@@ -1,5 +1,5 @@
 ---
-title: "놀람 최소화 원칙(principle of least surprise) 이란?"
+title: "놀람 최소화 원칙(principle of least surprise)"
 layout: post
 category: CleanCode
 tags: [CleanCode]
