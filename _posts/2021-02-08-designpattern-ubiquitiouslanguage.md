@@ -10,7 +10,7 @@ author: BAEKJungHo
 * content
 {:toc}
 
-![logo](/images/posts/logo/CLEANCODE.jpg)
+![logo](/images/posts/logo/DesignPattern.jpg)
 
 # 서론
 
@@ -28,7 +28,7 @@ author: BAEKJungHo
 >
 > 구절의 순서는 아무런 차이를 만들어내지 않는다.
 >
-> - 루이스 캐롤, "시인은 태어나는 것"
+> by. 루이스 캐롤, "시인은 태어나는 것"
 
 <img src="https://media.giphy.com/media/lBe51i7Jc14FG/giphy.gif"> 
 
@@ -65,7 +65,7 @@ UBIQUITIOUS LANGUAGE 의 변화가 곧 모델의 변화라는 것을 인식하�
 > UBIQUITIOUS LANGUAGE 패턴의 추가 사항
 >
 > 시스템에 관해 이야기를 주고받을 때 모델을 사용하라. 모델의 요소와 상호작용을 이용하고 모델이 허용하는 범위에 개념을 조합하면서 시나리오를 큰 소리로 말해보라.
-> 표현해야할 것을 더 쉽게 말하는 방법을 찾아낸 다음 그러한 새로운 아이디러를 다이어그램과 코드에 적용하라.
+> 표현해야할 것을 더 쉽게 말하는 방법을 찾아낸 다음 그러한 새로운 아이디어를 다이어그램과 코드에 적용하라.
 >
 > 출처. 도메인 주도 설계(Domain-Driven Design)
 
