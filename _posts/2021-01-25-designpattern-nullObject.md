@@ -1,5 +1,5 @@
 ---
-title: "널 객체(Null Object) 패턴"
+title: "널 객체(Null Object)"
 layout: post
 category: DesignPattern
 tags: [DesignPattern]

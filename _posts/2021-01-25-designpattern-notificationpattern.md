@@ -1,5 +1,5 @@
 ---
-title: "노티피케이션(notification) 패턴"
+title: "노티피케이션(notification)"
 layout: post
 category: DesignPattern
 tags: [DesignPattern]
