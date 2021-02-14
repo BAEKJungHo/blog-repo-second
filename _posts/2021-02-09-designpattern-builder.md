@@ -102,7 +102,7 @@ Rule rule = new RuleBuilder()
 - 사용자가 명시적으로 생성자를 호출하지 못하도록 생성자를 비공개로 설정한다.
 - when 메서드를 정적 메서드로 만들어 이 메서드를 호출하면 예전 생성자를 호출하도록 한다. 게다가 정적 메서드를 제공하므로 Rule 객체를 설정하려면 어떤
 메서드를 이용해야하는지 쉽게 알 수 있으므로 [발견성](https://baekjungho.github.io/designpattern-ubiquitiouslanguage/)도 개선된다.
-- then 메서드가 객체의 최종 생성을 책임진다.
+- then 메서드가 객체의 최종 생성을 책임진다. 
 
 ```java
 public class RuleBuilder {
