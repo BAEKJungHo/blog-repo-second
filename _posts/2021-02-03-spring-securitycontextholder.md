@@ -116,7 +116,6 @@ final class ThreadLocalSecurityContextHolderStrategy implements SecurityContextH
 
 ![holder2](/images/posts/202102/holder2.JPG)
 
-
 ## 참고
 
 > [인프런. 스프링 부트 기반 스프링 시큐리티 프로젝트](#)
