@@ -50,7 +50,7 @@ function customAlert(htmlHeight, scrollTop){
     if (htmlHeight - 1200 < scrollTop){
         var alerted = sessionStorage.getItem('alerted') || '';
         if (alerted != 'yes') {
-            alert("1회 노출");
+//             alert("1회 노출");
             sessionStorage.setItem('alerted','yes');
         }
     }
