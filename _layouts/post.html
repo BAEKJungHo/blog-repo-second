@@ -24,15 +24,12 @@ layout: default
             {% include category.html %}
             </div>
 
-            <div class="label-card">
-            {% include tag.html %}
-            </div>
-
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
         </article>
+        
         <hr>
 
         {% assign hasSimilar = '' %}
@@ -66,17 +63,14 @@ layout: default
 
         <h2 id="comments">Comments</h2>
         {% include comments.html %}
-
-
     </div>
-    <button class="anchor"><i class="fa fa-anchor"></i></button>
+
     <div class="right">
         <div class="wrap">
-
             <!-- Content -->
             <div class="side content">
                 <div>
-                    Content
+                    Index
                 </div>
                 <ul id="content-side" class="content-ul">
                     {% if hasSimilar.size > 0 %}
@@ -85,8 +79,6 @@ layout: default
                     <li><a href="#comments">Comments</a></li>
                 </ul>
             </div>
-            <!-- 其他div框放到这里 -->
-            <!-- <div class="side">bbbb</div> -->
         </div>
     </div>
 </div>
@@ -101,4 +93,5 @@ layout: default
     }
 }());
 </script>
+<script src="{{ "/js/pageCounting.js" }}" charset="utf-8"></script>
 <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
