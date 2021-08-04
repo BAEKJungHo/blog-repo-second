@@ -72,7 +72,7 @@ public class 인터셉터 {
           
           if(!cookieValue.equals(NOT_LOGIN)) {
               request.setAttribute("forward", "/kor.do");
-              throw new ShowUserMessageException(Message.LOGOUT_BY_SESSION_TIMEOUT);
+              throw new SessionTimeoutException(Message.LOGOUT_BY_SESSION_TIMEOUT);
           }
         }
     }
