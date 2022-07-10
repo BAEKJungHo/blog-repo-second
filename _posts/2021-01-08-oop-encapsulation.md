@@ -160,6 +160,35 @@ public static final Thing[] values() {
 }
 ```
 
+## getter/setter 지양
+
+> https://github.com/Cr0ffle/Spring/blob/main/%5B05%5D_%EC%84%9C%EB%B9%84%EC%8A%A4_%EC%B6%94%EC%83%81%ED%99%94/index.md
+
+이 두방식의 차이는 뭘까요 ??
+
+```
+// c
+printf("Cash value is %d", cash.dollars);
+
+// c++
+printf("Cash value is %s", cash.print());
+```
+
+- struct (자료구조) 로 선언한 경우 멤버인 dollars 에 접근한 뒤 해당 값을 취급한다.
+  - struct 인 Cash 는 아무것도 하고 있지 않다.
+  - 이는 단순한 데이터 자료구조
+- class 로 선언한 경우 멤버 dollars 에 접근하는 것이 아닌, print() 함수를 통해 객체에게 출력해달라고 요청 한다.
+  - 내부에 자신이 가진 필드를 외부로 노출하지 않는다.
+  - dollars 라는 필드가 있는지 조차 알 수 없다.
+
+> 이런 방식이 OOP 가 지향하는 설계 원칙중 하나인 캡슐화
+
+- 자료구조는 투명 하지만, 객체는 불투명 하다.
+- 자료구조는 수동적 이지만 객체는 능동적 이다.
+- 근본적으로 getter/setter 는 캡슐화 원칙을 위반 한다.
+- 메소드를 통해 호출하지만, 근본적으로 내부에 있는 필드가 어떤것인지 외부에 노출 하고 있으며, 사실상 직접접근하는 것과 차이가 없다.
+- 이런 getter setter 방식은 클래스를 자료구조로써 다루기 위해 도입된 방식 이다.
+
 ## 정리
 
 - 캡슐화는 getter/setter 의 역할을 하는 public 메서드를 만들고, 속성을 private 으로 감추어 다른 코드들과의 결합도를 낮추기
